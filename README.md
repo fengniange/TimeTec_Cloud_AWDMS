@@ -2,6 +2,34 @@
 
 Description of product : The TimeTec AWDMS is an online application that offers Application Programming Interface (API) for third-party application developers to integrate with TimeTec terminals; to retrieve user information, biometric data, transaction logs, and TimeTec devices information.
 
+> [Vulnerability Type]
+> Cross Site Scripting (XSS)
+>
+> ------------------------------------------
+>
+> [Vendor of Product]
+> timetec
+>
+> ------------------------------------------
+>
+> [Affected Product Code Base]
+> AWDMS - 2.0
+>
+> ------------------------------------------
+>
+> [Attack Type]
+> Context-dependent
+>
+> ------------------------------------------
+>
+> [Impact Information Disclosure]
+> true
+>
+> ------------------------------------------
+>
+> [Attack Vectors]
+> payload:`<img src=x onerror=alert(1)>`
+>
 Description of vulnerability : I found a stored XSS vulnerability after logging in to the system.
 
 
